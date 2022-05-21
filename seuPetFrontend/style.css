@@ -1,0 +1,142 @@
+body {
+    background-color: white;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.logo {
+    margin-top: 23px;
+}
+
+.cabecalho {
+    background-color: #54ff65;
+}
+
+.cabecalhoPrincipal {
+    background-color: #29a32c;
+}
+
+.CabecalhoLogo-Nav{
+    width: 89%;
+    margin: -35px auto;
+}
+
+.cabecalho-link {
+    padding: 0 4em;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.ultimoLink {
+    padding-right: 0;
+}
+
+.loginLink {
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 1em;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.ultimologin {
+    margin-right: 4em;
+}
+
+.boxLogin {
+    width: 500px;
+    height: 500px;
+    background-color: #6ef833;
+    border-radius: 2em;
+}
+
+.input-padrao{
+    width: 400px;
+    padding: 10px 0;
+    border-radius: 1px;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+.enviar {
+    width: 400px;
+    padding: 10px 0;
+    background-color:#29a32c;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 20px;
+    transition: 0.5s ;
+    cursor: pointer;
+    margin-top: 5px;
+    border: 3px solid white;
+}
+
+.enviar:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+}
+
+.entrarSeupet {
+    margin-top: 1em;
+}
+
+@media (max-width: 1500px) {
+    .CabecalhoLogo-Nav {
+        text-align: center;
+    }
+    .cabecalho-link {
+        padding: 1px 3em;
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+    }
+
+@media (max-width: 1400px) {
+    .CabecalhoLogo-Nav {
+        text-align: center;
+    }
+    .cabecalho-link {
+        padding: 1px 2em;
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .CabecalhoLogo-Nav {
+        text-align: center;
+    }
+    .cabecalho-link {
+        padding: 1px 10px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 810px) {
+    .CabecalhoLogo-Nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cabecalho-nav {
+        flex-direction: column;
+    }
+}
